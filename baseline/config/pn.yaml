@@ -1,0 +1,24 @@
+# http://opennmt.net/OpenNMT-py/Summarization.html?highlight=pointer%20network
+copy_attn : true
+global_attention : mlp
+word_vec_size : 128
+share_embeddings : true
+rnn_size : 256
+layers : 1
+encoder_type : brnn
+#more or less 20 epochs
+train_steps : 125000
+max_grad_norm : 2
+dropout : 0            
+batch_size : 32
+valid_batch_size : 32
+optim : adagrad
+learning_rate : 0.15
+adagrad_accumulator_init : 0.1
+reuse_copy_attn : true
+copy_loss_by_seqlength : true
+bridge : true
+gpu_ranks : 0
+
+coverage_attn : true
+lambda_coverage : 1

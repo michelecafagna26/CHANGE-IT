@@ -1,0 +1,17 @@
+global_attention : mlp
+word_vec_size : 128
+share_embeddings : true
+rnn_size : 128
+layers : 1
+encoder_type : brnn
+decoder_type : rnn
+#more or less 78 epochs
+train_steps : 100000
+max_grad_norm : 2
+dropout : 0            
+batch_size : 64
+valid_batch_size : 64
+optim : adagrad
+learning_rate : 0.15
+adagrad_accumulator_init : 0.1
+gpu_ranks : 0
