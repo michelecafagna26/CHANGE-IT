@@ -9,7 +9,7 @@ pip install -r requirements.txt
 
 ## Get started
 
-Our baselines are based on OpenNMT-py, a popular Deeplearning framework, full documentation [here]: https://opennmt.net/OpenNMT-py
+Our baselines are based on OpenNMT-py, a popular Deeplearning framework, full documentation [here](https://opennmt.net/OpenNMT-py)
 This is gonna make easy and fast training and testing new models just changing few lines of code.
 
 ## Build the Generators
@@ -23,7 +23,7 @@ run:
 bash baseline/process_data.sh
 ```
 after the preprocessing the source data for training, validation and testing and the vocabular just created will be saved in *.pt* format in the specified folder.
-For full documentation about paramaters and option follow the [OpenNMT-py official doc]: https://opennmt.net/OpenNMT-py/options/preprocess.html
+For full documentation about paramaters and option follow the [OpenNMT-py official doc](https://opennmt.net/OpenNMT-py/options/preprocess.html)
 
 ### Training
 
@@ -33,7 +33,7 @@ To start the training run:
 ```bash
 bash baseline/process_data.sh
 ```
-For full documentation about paramaters and option follow the [OpenNMT-py official doc]: https://opennmt.net/OpenNMT-py/options/train.html
+For full documentation about paramaters and option follow the [OpenNMT-py official doc](https://opennmt.net/OpenNMT-py/options/train.html)
 
 ### Testing
 To test your model and generate prediction you need a model chdckpoint and inputs. To execute the example script test run:
