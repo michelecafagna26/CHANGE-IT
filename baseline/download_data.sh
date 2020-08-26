@@ -1,5 +1,5 @@
-mkdir baseline/rep;
-mkdir baseline/gio;
+mkdir rep;
+mkdir gio;
 wget --no-check-certificate 'https://onedrive.live.com/download?cid=E6B3E4D7D35E03A5&resid=E6B3E4D7D35E03A5%214732&authkey=AO5JrbVfr-UHfMg' -O baseline/gio/val_gio_h.txt;
 wget --no-check-certificate 'https://onedrive.live.com/download?cid=E6B3E4D7D35E03A5&resid=E6B3E4D7D35E03A5%214731&authkey=ABVi2UIaqSQmE2o' -O baseline/gio/val_gio_ft.txt;
 wget --no-check-certificate 'https://onedrive.live.com/download?cid=E6B3E4D7D35E03A5&resid=E6B3E4D7D35E03A5%214733&authkey=AFfUxc8qcR4F1Yk' -O baseline/gio/train_gio_h.txt;
