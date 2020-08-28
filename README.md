@@ -19,12 +19,12 @@ To download the model run:
 ```bash
 bash baseline/download_models.sh.sh
 ```
-To download the data run:
-```bash
-bash baseline/download_data.sh.sh
-```
-Data are needed if you want to execute the next example scripts and to check the file format.
-If you want to play with our baselines download both models and data and go to *Testing* section.
+To download the *data*:
+- download and unzip [train_val_gio.zip](https://drive.google.com/file/d/1i4EpOmZKgOfsIaoQUC4L6BoZncTHp2vd/view?usp=sharing) in *baseline/gio*
+- download and unzip [train_val_rep.zip](https://drive.google.com/file/d/1i4EpOmZKgOfsIaoQUC4L6BoZncTHp2vd/view?usp=sharing) in *baseline/rep*
+
+Data are needed to reproduce the results of our base scripts and to check the file format. These archives contains the train/val splits used to train the baseline, but you are free to use whatever split you want.
+If you want to play with our baselines download both models and data and go to the *Testing* section.
 
 ## Build your Headline Generators
 
