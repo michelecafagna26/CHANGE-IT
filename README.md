@@ -53,3 +53,7 @@ To test your model and generate prediction you need a model chdckpoint and input
 ```bash
 bash baseline/test.sh
 ```
+
+### Run evaluation classifiers
+
+Check out the notebook in `eval_classifiers`
