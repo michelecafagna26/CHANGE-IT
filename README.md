@@ -1,7 +1,18 @@
-# CHANGE-IT
-CHANGE-IT Task EVALITA2020
+# CHANGE-IT Task EVALITA2020
 
-## Requirements
+## Overview of the task
+
+The task can be seen as a “headline translation” problem. Given a (collection of) headlines from two newspapers at opposite ends of the political spectrum, namely Il Giornale (G) and La Repubblica (R), change all G-headlines to headlines in style R, and all R-headlines to headlines in style G.
+
+For a more detailed description of the task you can check:
+
+- our paper: [CHANGE-IT @ EVALITA 2020: Change Headlines, Adapt News, GEnerate](http://ceur-ws.org/Vol-2765/paper169.pdf)
+
+- the task website: https://sites.google.com/view/change-it/home
+
+- the video presentation of task: https://vimeo.com/484098874
+
+## Requirements installation
 
 ```bash
 pip install -r requirements.txt
@@ -57,3 +68,16 @@ bash baseline/test.sh
 ### Run evaluation classifiers
 
 Check out the notebook in `eval_classifiers`
+
+# Reference
+
+If you find this project helps, please cite our paper :)
+
+```bash
+@article{de2020change,
+  title={CHANGE-IT@ EVALITA 2020: Change Headlines, Adapt News, GEnerate},
+  author={De Mattei, Lorenzo and Cafagna, Michele and AI, Aptus and Dell’Orletta, Felice and Nissim, Malvina and Gatt, Albert},
+  year={2020}
+}
+```
+
