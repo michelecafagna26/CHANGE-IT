@@ -8,9 +8,9 @@ For a more detailed description of the task you can check:
 
 - our paper: [CHANGE-IT @ EVALITA 2020: Change Headlines, Adapt News, GEnerate](http://ceur-ws.org/Vol-2765/paper169.pdf)
 
-- the task website: https://sites.google.com/view/change-it/home
+- the task [website](https://sites.google.com/view/change-it/home)
 
-- the video presentation of task: https://vimeo.com/484098874
+- the [video presentation](https://vimeo.com/484098874) of task
 
 ## Requirements installation
 
