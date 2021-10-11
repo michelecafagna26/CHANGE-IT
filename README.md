@@ -55,7 +55,7 @@ To start a training you need the preprocessed sources and targets and a configur
 
 To start the training run:
 ```bash
-bash baseline/process_data.sh
+bash baseline/train.sh
 ```
 For full documentation about paramaters and option follow the [OpenNMT-py official doc](https://opennmt.net/OpenNMT-py/options/train.html)
 
