@@ -20,6 +20,8 @@ pip install -r requirements.txt
 
 ## Get started
 
+In order to access the data you will need the password, request access to [this google group](https://groups.google.com/g/change-it-evalita-2020) to get it.
+
 Our baselines are based on OpenNMT-py, a popular Deeplearning framework, full documentation [here](https://opennmt.net/OpenNMT-py).
 OpenNMT is gonna make easy and fast training and testing new models just changing few lines of code, but you can use your own model.
 
@@ -28,7 +30,7 @@ OpenNMT is gonna make easy and fast training and testing new models just changin
 Big files like data and baselines checkpoint need to be dowloaded separately.
 To download the model run:
 ```bash
-bash baseline/download_models.sh.sh
+bash baseline/download_models.sh
 ```
 To download the *data*:
 - download and unzip [train_val_gio.zip](https://drive.google.com/file/d/1i4EpOmZKgOfsIaoQUC4L6BoZncTHp2vd/view?usp=sharing) in *baseline/gio*
