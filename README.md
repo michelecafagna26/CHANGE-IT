@@ -12,7 +12,7 @@ For a more detailed description of the task you can check:
 
 - the [video presentation](https://vimeo.com/484098874) of task
 
-## Requirements installation
+## Requirements for installation
 
 ```bash
 pip install -r requirements.txt
@@ -75,7 +75,7 @@ Check out the notebook in `eval_classifiers`
 
 If you find this project helps, please cite our paper :)
 
-```bash
+```BibTeX
 @article{de2020change,
   title={CHANGE-IT@ EVALITA 2020: Change Headlines, Adapt News, GEnerate},
   author={De Mattei, Lorenzo and Cafagna, Michele and AI, Aptus and Dell’Orletta, Felice and Nissim, Malvina and Gatt, Albert},
